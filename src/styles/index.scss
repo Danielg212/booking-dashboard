@@ -47,6 +47,34 @@ body {
         border-color: #374148;
     }
 
+    .top-sellers{
+        h3{
+            color: #ffffff;
+            text-align: left;
+        }
+        .seller{
+            display: flex;
+            padding: 13px;
+            margin: 10px;
+            align-items: center;
+
+            .img{
+                width: 33px;
+                height: 33px;
+                object-fit: contain;
+                border-radius: 16px;
+            }
+            .paddingLeft{
+                padding-left: 30px;
+                display: flex;
+            }
+            .full-name{
+                color:white
+            }
+
+        }
+    }
+
 }
 
 

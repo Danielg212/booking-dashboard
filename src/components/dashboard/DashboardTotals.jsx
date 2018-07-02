@@ -20,7 +20,7 @@ export default class DashboardTotals extends Component {
                 this.setState({
                     totals:res.data,
                     loading:false})
-            }).then(()=>{console.log(this.state)})
+            })
     });
     console.log(this.state);
 
